@@ -1,0 +1,226 @@
+* {
+    font-family: "Marvel", sans-serif;
+}
+
+/* Header Styles */
+
+.header {
+    display: flex;
+    height: 150px;
+    max-width: 100%;
+    width: 1200px;
+    margin: auto;
+}
+
+
+[class*="maki-"]:before {
+    box-shadow: 4px 4px 10px #333;
+    color: #fff;
+    background-color: #2b6605;
+    border: 2px ridge #444;
+    border-radius: 20%;
+    font-family: "maki", sans-serif;
+    display: block;
+    font-size: 7em;
+    line-height: 85%;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    padding: 0;
+    margin: 50px auto 0 20px;
+    width: 88px;
+    max-width: 100%
+ }
+
+.col-md-9 .name {
+    display: block;
+    float: right;
+    font:  normal small-caps 100 50px/0.8em sans-serif;
+    color: #1b4201;
+    letter-spacing: 0.01em;
+    margin-top: 8%;
+    width: 100%;
+}
+
+.col-md-9 .profession {
+    display: block;
+    color: #666;
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 0.8em;
+    text-align: right;
+}
+
+.head_break {
+    height: 4px;
+    background-color: #1b4201;
+    margin-top: 10px;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Project Area Style */
+
+.featured {
+    font-size: 2.5em;
+    color: #777;
+    font-weight: 100;
+    font-variant: small-caps;
+    margin: 40px 0 20px 0;
+}
+
+.project-space {
+    margin-bottom: 30px;
+}
+
+.project {
+    line-height: 0.9em;
+    font-size: 2em;
+    margin: 9px 0 8px 0;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: #777;
+}
+
+.project-description {
+    line-height: 0.9em;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.foot {
+    height: 6px;
+    background-color: #1b4201;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .col-md-9 {
+        width: 100%;
+    }
+
+    .col-md-9 .name {
+        font-size: 48px;
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding: 0;
+    }
+
+    .col-md-3 {
+        padding-top: 0;
+
+    }
+
+    .col-md-9 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 1%;
+    }
+
+    .col-md-3 .maki-hospital {
+        display: flex;
+        font-size: 0.9em;
+        width: 75px;
+    }
+
+    .col-md-9 .name {
+        font-size: 44px;
+        width: 100%;
+    }
+
+    .col-md-9 .profession  {
+        font-size: 24px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    .header {
+        height: auto;
+    }
+
+    .col-md-9 {
+        margin-top: 4%;
+    }
+
+    .col-md-9 .name {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        height: auto;
+        max-height: 120px;
+    }
+
+    .col-md-3 .maki-hospital {
+        font-size: 0.7em;
+        width: 72px;
+    }
+
+    .col-md-9 {
+        margin-top: 6%;
+    }
+
+    .col-md-9 .name {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        height: auto;
+        max-height: 120px;
+    }
+
+    .col-md-9 {
+        margin-top: 8%;
+    }
+
+    .col-md-9 .name {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width: 359px) {
+    .header {
+        height: auto;
+        max-height: 110px;
+    }
+
+    .col-md-3 {
+        margin-left: 0;
+    }
+
+    .col-md-9 {
+        margin-top: 11%;
+    }
+
+    .col-md-3 .maki-hospital {
+        font-size: .5em;
+        width: 55px;
+    }
+
+    .col-md-9 .name {
+        font-size: 24px;
+    }
+
+    .col-md-9 .profession {
+        font-size: 18px;
+    }
+
+    .project {
+        font-size: 1.8em;
+    }
+}
