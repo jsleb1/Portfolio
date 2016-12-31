@@ -1,3 +1,7 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=maki);
+
+
 * {
     font-family: "Marvel", sans-serif;
 }
@@ -12,14 +16,13 @@
     margin: auto;
 }
 
-
 [class*="maki-"]:before {
+    font-family: "maki", sans-serif;
     box-shadow: 4px 4px 10px #333;
     color: #fff;
     background-color: #2b6605;
     border: 2px ridge #444;
     border-radius: 20%;
-    font-family: "maki", sans-serif;
     display: block;
     font-size: 7em;
     line-height: 85%;
@@ -28,8 +31,20 @@
     padding: 0;
     margin: 50px auto 0 20px;
     width: 88px;
-    max-width: 100%
+    max-width: 100%;
  }
+
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+    background-color: #2b6605;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid black 5px;
+}
 
 .col-md-9 .name {
     display: block;
@@ -96,6 +111,38 @@
     background-color: #1b4201;
     margin-top: 10px;
 }
+
+.foot2 {
+    margin-bottom: 3px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 240px;
+}
+
+.footer div {
+    border: 2px solid black;
+    background-color: #2b6605;
+    border-radius: 25%;
+    box-shadow: 2px 2px 2px #444;
+    margin:10px;
+    padding: 3px;
+    text-align: center;
+    width: 40px;
+}
+
+.footer a {
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+
+}
+
 
 @media screen and (max-width: 991px) {
     .col-md-9 {
