@@ -100,10 +100,16 @@
     color: #777;
 }
 
+.projectPhoto {
+    height: 300px;
+    width: 90%;
+    margin: auto;
+}
 .project-description {
     line-height: 0.9em;
     margin: 0;
     font-size: 1.5em;
+    margin-bottom: 5px;
 }
 
 .foot {
