@@ -149,6 +149,18 @@
 
 }
 
+/* Modal Styles */
+
+.modalImage, .modalDescription  {
+    margin: auto;
+    text-align: center;
+}
+
+.modalDescription {
+    margin-top: 10px;
+    width: 80%;
+}
+
 
 @media screen and (max-width: 991px) {
     .col-md-9 {
